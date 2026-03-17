@@ -1,8 +1,5 @@
-// Copyright (C) 2025 Petr Malik
-//
-// This Source Code Form is subject to the terms of the Mozilla Public
-// License, v. 2.0. If a copy of the MPL was not distributed with this
-// file, You can obtain one at <https://mozilla.org/MPL/2.0/>.
+// Copyright (c) 2025 Petr Malik and CircleCI, Inc.
+// SPDX-License-Identifier: MIT
 
 // Package config contains the data models representing the structure of configuration
 // and task definition files for the MindTrial application. It provides configuration management

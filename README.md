@@ -1,10 +1,10 @@
 # MindTrial
 
-[![Build](https://github.com/petmal/mindtrial/actions/workflows/go.yml/badge.svg)](https://github.com/petmal/mindtrial/actions/workflows/go.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/petmal/mindtrial)](https://goreportcard.com/report/github.com/petmal/mindtrial)
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://mozilla.org/MPL/2.0/)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/petmal/mindtrial)](https://go.dev/)
-[![Go Reference](https://pkg.go.dev/badge/github.com/petmal/mindtrial.svg)](https://pkg.go.dev/github.com/petmal/mindtrial)
+[![Build](https://github.com/CircleCI-Research/MindTrial/actions/workflows/go.yml/badge.svg)](https://github.com/CircleCI-Research/MindTrial/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/CircleCI-Research/MindTrial)](https://goreportcard.com/report/github.com/CircleCI-Research/MindTrial)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![Go Version](https://img.shields.io/github/go-mod-go-version/CircleCI-Research/MindTrial)](https://go.dev/)
+[![Go Reference](https://pkg.go.dev/badge/github.com/CircleCI-Research/MindTrial.svg)](https://pkg.go.dev/github.com/CircleCI-Research/MindTrial)
 
 **MindTrial** lets you test a single AI language model (LLM) or evaluate multiple models side-by-side. It supports providers like OpenAI, Google, Anthropic, DeepSeek, Mistral AI, xAI, Alibaba, Moonshot AI, and OpenRouter. You can create your own custom tasks with text prompts, plain text or structured JSON response formats, optional file attachments, and tool use for enhanced capabilities; validate responses through exact value matching or an LLM judge for semantic evaluation; and get results in easy-to-read HTML and CSV formats.
 
@@ -13,7 +13,7 @@
 1. Install the tool:
 
    ```bash
-   go install github.com/petmal/mindtrial/cmd/mindtrial@latest
+   go install github.com/CircleCI-Research/MindTrial/cmd/mindtrial@latest
    ```
 
 2. Run with default settings:
@@ -1142,7 +1142,7 @@ Contributions are welcome! Please review our [CONTRIBUTING.md](CONTRIBUTING.md) 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/petmal/mindtrial.git
+git clone https://github.com/CircleCI-Research/MindTrial.git
 cd mindtrial
 go mod download
 ```
@@ -1176,4 +1176,6 @@ go test -tags=test -race -v ./...
 
 ### License
 
-This project is licensed under the Mozilla Public License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Originally created by [Petr Malik](https://github.com/petmal). Maintained by the CircleCI AI Team.

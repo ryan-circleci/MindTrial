@@ -1,8 +1,5 @@
-// Copyright (C) 2025 Petr Malik
-//
-// This Source Code Form is subject to the terms of the Mozilla Public
-// License, v. 2.0. If a copy of the MPL was not distributed with this
-// file, You can obtain one at <https://mozilla.org/MPL/2.0/>.
+// Copyright (c) 2025 Petr Malik and CircleCI, Inc.
+// SPDX-License-Identifier: MIT
 
 // Package runners provides interfaces and implementations for executing MindTrial tasks and collecting their results.
 package runners
@@ -16,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/petmal/mindtrial/config"
-	"github.com/petmal/mindtrial/pkg/utils"
+	"github.com/CircleCI-Research/MindTrial/config"
+	"github.com/CircleCI-Research/MindTrial/pkg/utils"
 	"github.com/sergi/go-diff/diffmatchpatch"
 )
 

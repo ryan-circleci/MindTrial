@@ -1,8 +1,5 @@
-// Copyright (C) 2025 Petr Malik
-//
-// This Source Code Form is subject to the terms of the Mozilla Public
-// License, v. 2.0. If a copy of the MPL was not distributed with this
-// file, You can obtain one at <https://mozilla.org/MPL/2.0/>.
+// Copyright (c) 2025 Petr Malik and CircleCI, Inc.
+// SPDX-License-Identifier: MIT
 
 // Package main provides the command-line interface and the main entry point for MindTrial.
 package main
@@ -19,11 +16,11 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/petmal/mindtrial/cmd/mindtrial/tui"
-	"github.com/petmal/mindtrial/config"
-	"github.com/petmal/mindtrial/formatters"
-	"github.com/petmal/mindtrial/runners"
-	"github.com/petmal/mindtrial/version"
+	"github.com/CircleCI-Research/MindTrial/cmd/mindtrial/tui"
+	"github.com/CircleCI-Research/MindTrial/config"
+	"github.com/CircleCI-Research/MindTrial/formatters"
+	"github.com/CircleCI-Research/MindTrial/runners"
+	"github.com/CircleCI-Research/MindTrial/version"
 )
 
 const (

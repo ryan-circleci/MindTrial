@@ -1,8 +1,5 @@
-// Copyright (C) 2025 Petr Malik
-//
-// This Source Code Form is subject to the terms of the Mozilla Public
-// License, v. 2.0. If a copy of the MPL was not distributed with this
-// file, You can obtain one at <https://mozilla.org/MPL/2.0/>.
+// Copyright (c) 2025 Petr Malik and CircleCI, Inc.
+// SPDX-License-Identifier: MIT
 
 package providers
 
@@ -15,9 +12,9 @@ import (
 	"time"
 
 	"github.com/invopop/jsonschema"
-	"github.com/petmal/mindtrial/config"
-	"github.com/petmal/mindtrial/pkg/logging"
-	"github.com/petmal/mindtrial/pkg/testutils"
+	"github.com/CircleCI-Research/MindTrial/config"
+	"github.com/CircleCI-Research/MindTrial/pkg/logging"
+	"github.com/CircleCI-Research/MindTrial/pkg/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
@@ -360,7 +357,7 @@ func TestResultJSONSchemaRaw(t *testing.T) {
 			responseFormat: config.NewResponseFormat("Provide a simple answer"),
 			wantSchema: map[string]interface{}{
 				"$schema":              "https://json-schema.org/draft/2020-12/schema",
-				"$id":                  "https://github.com/petmal/mindtrial/providers/result",
+				"$id":                  "https://github.com/CircleCI-Research/MindTrial/providers/result",
 				"type":                 "object",
 				"additionalProperties": false,
 				"properties": map[string]interface{}{
@@ -410,7 +407,7 @@ func TestResultJSONSchemaRaw(t *testing.T) {
 			}),
 			wantSchema: map[string]interface{}{
 				"$schema":              "https://json-schema.org/draft/2020-12/schema",
-				"$id":                  "https://github.com/petmal/mindtrial/providers/result",
+				"$id":                  "https://github.com/CircleCI-Research/MindTrial/providers/result",
 				"type":                 "object",
 				"additionalProperties": false,
 				"properties": map[string]interface{}{
@@ -482,7 +479,7 @@ func TestResultJSONSchema(t *testing.T) {
 			responseFormat: config.NewResponseFormat("Provide a simple answer"),
 			wantSchemaRaw: map[string]interface{}{
 				"$schema":              "https://json-schema.org/draft/2020-12/schema",
-				"$id":                  "https://github.com/petmal/mindtrial/providers/result",
+				"$id":                  "https://github.com/CircleCI-Research/MindTrial/providers/result",
 				"type":                 "object",
 				"additionalProperties": false,
 				"properties": map[string]interface{}{
@@ -532,7 +529,7 @@ func TestResultJSONSchema(t *testing.T) {
 			}),
 			wantSchemaRaw: map[string]interface{}{
 				"$schema":              "https://json-schema.org/draft/2020-12/schema",
-				"$id":                  "https://github.com/petmal/mindtrial/providers/result",
+				"$id":                  "https://github.com/CircleCI-Research/MindTrial/providers/result",
 				"type":                 "object",
 				"additionalProperties": false,
 				"properties": map[string]interface{}{

@@ -1,8 +1,5 @@
-// Copyright (C) 2025 Petr Malik
-//
-// This Source Code Form is subject to the terms of the Mozilla Public
-// License, v. 2.0. If a copy of the MPL was not distributed with this
-// file, You can obtain one at <https://mozilla.org/MPL/2.0/>.
+// Copyright (c) 2025 Petr Malik and CircleCI, Inc.
+// SPDX-License-Identifier: MIT
 
 package version
 
@@ -11,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/petmal/mindtrial/pkg/testutils"
+	"github.com/CircleCI-Research/MindTrial/pkg/testutils"
 	"github.com/stretchr/testify/assert"
 )
 
